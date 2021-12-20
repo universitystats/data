@@ -18,7 +18,7 @@ import GradNetIncomePremiumChart from "./Charts/GradNetIncomePremiumChart"
 function Content() {
     return (
         <>
-            <Typography variant='h2' style={{ marginTop: '24px' }} >{title}</Typography>
+            <Typography variant='h2'  style={{ marginTop: '24px' }} >{title}</Typography>
             <MainContainer>
                 <Introduction />
                 <SubTitle>Graduate Earnings</SubTitle>

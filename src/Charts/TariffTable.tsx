@@ -1,4 +1,4 @@
-import { TableContainer, Paper, Table, TableRow, TableBody, withStyles, TableCell as MuiTableCell } from '@material-ui/core';
+import { Table, TableBody, TableCell as MuiTableCell, TableContainer, TableRow, withStyles } from '@material-ui/core';
 
 export default function TariffTable() {
 

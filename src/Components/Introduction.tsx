@@ -1,5 +1,4 @@
-import { Typography, List } from "@material-ui/core";
-import { TextContainer } from "../styles";
+import { List } from "@material-ui/core";
 import CustomListItem from "./CustomListItem";
 import TextBox from "./TextBox";
 

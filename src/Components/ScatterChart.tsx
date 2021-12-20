@@ -25,8 +25,8 @@ interface ScatterChartProps {
 const xLabelProps =
     { fontSize: 'medium', fill: '#666666', fontFamily: 'Helvetica', position: 'insideBottom', offset: 0, dy: 10 }
 
-const yLabelProps =
-    { fontSize: 'small', fill: '#666666', fontFamily: 'Helvetica', position: 'insideLeft', offset: 0, angle: -90 }
+// const yLabelProps =
+//     { fontSize: 'small', fill: '#666666', fontFamily: 'Helvetica', position: 'insideLeft', offset: 0, angle: -90 }
 
 const CustomScatterChart = (props: ScatterChartProps): JSX.Element => {
     const { data, xData, yData, caption, xLabel, showLegend, isVertical, longestLabelLength, height, tooltip } = props
